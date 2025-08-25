@@ -61,82 +61,28 @@ const LinkManager = {
 
 // SEÇÃO DE PAINÉIS
 const PanelData = [
-    {
-        //card dengue
-        id: 'dengue',
-        title: 'Dengue',
-        description: 'Dados sobre a Dengue no município.',
-        url: 'https://lookerstudio.google.com/reporting/3c304ce9-c20f-4901-993c-02a6c3b21c00',
+{
+        //card Em constução
+    id: 'construcao',
+        title: 'EM CONSTRUÇÃO',
+        description: 'PAINEL EM FASE DE DESENVOLVIMENTO',
+        url: '#',
         icon: 'activity',
-        gradient: 'dengue'
+        gradient: 'construcao'
     },
-    {
-        // card dados vitais - nascidos vivos + óbitos
-        id: 'vitais',
-        title: 'Dados Vitais',
-        description: 'Dados referentes aos nascimentos e óbitos do município.',
-        url: 'https://lookerstudio.google.com/reporting/0901413f-71d9-4742-84a3-e91ea4ea6768',
-        icon: 'heart',
-        gradient: 'vitais'
-    },
-    {
-        // card vacina de rotina - esperar glaucio fazer o painel para colocar link certo !!!
-        id: 'vacinacao',
-        title: 'Vacinação de Rotina',
-        description: 'Cobertura vacinal e dados sobre vacinação de rotina no município.',
-        url: 'https://docs.google.com/spreadsheets/d/1ByzyHrbe6Dwx6FrUUvXYZnz9f4LVciBRZm2uUQE8o_0/edit?gid=0#gid=0', // provisório, link do Google Sheets para apresentação 22/08
-        icon: 'shield',
-        gradient: 'vacinacao'
-    },
-    {
-        // card notificações compulsorias - esperar NOTION respondido pra montar o painel das doenças escolhidas
-        id: 'doencas',
-        title: 'Doenças e Agravos',
-        description: 'Doenças e agravos de notificação compulsória no município.',
-        url: 'https://www.google.com', // CRIAR UMA PÁGINA COM CARDS QUE REDIRECIONAM PARA O PAINEL DE CADA AGRAVO ? CASO A SE PENSAR
-        icon: 'alert-triangle',
-        gradient: 'doencas'
-    },
-    {
-        // card campanha anual de influenza - REVER SE REALMENTE HÁ NECESSIDADE DE UM PAINEL OU INCLUI NA ROTINA
-        id: 'influenza',
-        title: 'Vacinação contra Influenza',
-        description: 'Informações sobre a vacinação anual contra Influenza no município.',
-        url: 'https://infoms.saude.gov.br/extensions/SEIDIGI_DEMAS_VACINACAO_CALENDARIO_NACIONAL_COBERTURA_RESIDENCIA/SEIDIGI_DEMAS_VACINACAO_CALENDARIO_NACIONAL_COBERTURA_RESIDENCIA.html',
-        icon: 'syringe',
-        gradient: 'influenza'
-    },
-    {
-        // card sifilis - por enquanto usar 2022 - 2023 para a CERTIFICAÇÃO DA SES 
-        id: 'sifilis',
-        title: 'Sífilis',
-        description: 'Informações sobre os casos de Sífilis do município.',
-        url: 'https://lookerstudio.google.com/reporting/6321dc57-070e-4ad1-b97b-13be9876187d', //USANDO SIFILIS 22-23 PARA CERTIFICAÇÃO
-        icon: 'users',
-        gradient: 'sifilis'
-    }
 ];
 
 // SEÇÃO DE MATERIAL DE APOIO
 const SupportData = [
-    {
-        // drive do vivver com TODO material de Epidemio
-        id: 'notificacoes',
-        title: 'Notificações e Agravos',
-        description: 'Fichas de notificação, notas técnicas e documentos de apoio.',
-        url: 'https://drive.google.com/drive/u/2/folders/1KgI3OpPhtj7YCCHBxwIwqWfRGzXGTbSL', // Link para o drive
-        icon: 'alert-triangle',
-        gradient: 'notificacoes'
+{
+        //Link do drive para TODO material de apoio
+    id: 'construcao',
+        title: 'EM CONSTRUÇÃO',
+        description: 'PAINEL EM FASE DE DESENVOLVIMENTO', 
+        url: '#',
+        icon: 'activity',
+        gradient: 'construcao'
     },
-    {
-        // drive do vivver com TODO material de imunização (incluisiv POP's)
-        id: 'imunizacao',
-        title: 'Imunização',
-        description: 'Calendários, informes técnicos e materiais sobre imunização.',
-        url: 'https://drive.google.com/drive/u/3/folders/1-Y7q9O24UTOM0szrNH0cawv2YlE20-X0', // Link para o drive
-        icon: 'shield',
-        gradient: 'imunizacao'
-    }
 ];
 
 
