@@ -181,6 +181,9 @@ body {
     border-color: var(--border-light);
     box-shadow: var(--shadow-light);
     text-decoration: none; 
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .card:hover {
@@ -217,7 +220,8 @@ body {
 }
 
 .card-description {
-    font-size: 0.95rem;
+    font-size: 0.90rem;
+    font-style: italic;
     line-height: 1.6;
     margin-bottom: 1.5rem;
     color: var(--text-muted-light);
