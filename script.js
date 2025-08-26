@@ -63,7 +63,7 @@ const PortalData = [
     {
         id: 'epidemiologica',
         title: 'Vigilância Epidemiológica',
-        description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
+        description: 'Dados e informações sobre o cenário epidemiológico do município.',
         url: '/pages/epidemio/index.html',
         gradient: 'epidemiologica'
     },
