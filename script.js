@@ -102,7 +102,7 @@ const renderCards = () => {
     let cardsHtml = '';
     PortalData.forEach((panel) => {
         cardsHtml += `
-            <a href="${panel.url}" class="card ${panel.gradient}" aria-label="Abrir seção ${panel.title}" role="button" tabindex="0">
+            <a href="${panel.url}" target="_blank" rel="noopener noreferrer" class="card ${panel.gradient}" aria-label="Abrir seção ${panel.title}" role="button" tabindex="0">
                 <div class="card-gradient"></div>
                 <h3 class="card-title">${panel.title}</h3>
                 <p class="card-description">${panel.description}</p>
