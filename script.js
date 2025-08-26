@@ -56,28 +56,28 @@ const PortalData = [
     {
         id: 'ambiental',
         title: 'Vigilância Ambiental',
-        description: 'Ações e informações sobre o controle de fatores ambientais que afetam a saúde.',
+        description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
         url: '/pages/ambiental/index.html', // ATUALIZADO
         gradient: 'ambiental'
     },
     {
         id: 'epidemiologica',
         title: 'Vigilância Epidemiológica',
-        description: 'Monitoramento e análise de doenças e agravos para subsidiar ações de saúde.',
+        description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
         url: '/pages/epidemio/index.html',
         gradient: 'epidemiologica'
     },
     {
         id: 'sanitaria',
         title: 'Vigilância Sanitária',
-        description: 'Controle de bens, produtos e serviços que envolvem risco à saúde pública.',
+        description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
         url: '/pages/sanitaria/index.html', // ATUALIZADO
         gradient: 'sanitaria'
     },
     {
         id: 'trabalhador',
         title: 'Saúde do Trabalhador',
-        description: 'Ações voltadas para a prevenção de doenças e acidentes de trabalho.',
+        description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
         url: '/pages/trabalhador/index.html', // ATUALIZADO
         gradient: 'trabalhador'
     }
