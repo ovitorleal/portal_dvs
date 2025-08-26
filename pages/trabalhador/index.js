@@ -62,13 +62,14 @@ const LinkManager = {
 // SEÇÃO DE PAINÉIS
 const PanelData = [
 {
-        //card Em constução
-    id: 'construcao',
-        title: 'EM CONSTRUÇÃO',
-        description: 'PAINEL EM FASE DE DESENVOLVIMENTO',
-        url: '#',
-        icon: 'activity',
-        gradient: 'construcao'
+   
+       // card dados vitais - nascidos vivos + óbitos
+        id: 'atividades',
+        title: 'Atividades Econômicas',
+        description: 'Dados sobre atividades econômicas e setores produtivos no município.',
+        url: 'https://lookerstudio.google.com/reporting/346aea6c-f919-4f62-9eb0-5827eb69ea47',
+        icon: 'heart',
+        gradient: 'vitais'
     },
 ];
 
