@@ -57,28 +57,28 @@ const PortalData = [
         id: 'ambiental',
         title: 'Vigilância Ambiental',
         description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
-        url: '/pages/ambiental/index.html', // ATUALIZADO
+        url: '/pages/ambiental/index.html', // caminho atualizado
         gradient: 'ambiental'
     },
     {
         id: 'epidemiologica',
         title: 'Vigilância Epidemiológica',
         description: 'Dados e informações sobre o cenário epidemiológico do município.',
-        url: '/pages/epidemio/index.html',
+        url: '/pages/epidemio/index.html', //caminho atualizado
         gradient: 'epidemiologica'
     },
     {
         id: 'sanitaria',
         title: 'Vigilância Sanitária',
         description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
-        url: '/pages/sanitaria/index.html', // ATUALIZADO
+        url: '/pages/sanitaria/index.html', // caminho atualizado
         gradient: 'sanitaria'
     },
     {
         id: 'trabalhador',
         title: 'Saúde do Trabalhador',
         description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
-        url: '/pages/trabalhador/index.html', // ATUALIZADO
+        url: '/pages/trabalhador/index.html', // caminho atualizado
         gradient: 'trabalhador'
     }
 ];
