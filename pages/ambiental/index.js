@@ -51,18 +51,9 @@ const AnimationManager = {
     }
 };
 
-const LinkManager = {
-    openExternal: (url) => {
-        if (url) {
-            window.open(url, '_blank', 'noopener,noreferrer');
-        }
-    }
-};
-
 // SEÇÃO DE PAINÉIS
 const PanelData = [
     {
-        //card Em construção
         id: 'construcao',
         title: 'EM CONSTRUÇÃO',
         description: 'PAINEL EM FASE DE DESENVOLVIMENTO',
@@ -70,40 +61,19 @@ const PanelData = [
         icon: 'activity',
         gradient: 'construcao'
     },
-    
 ];
 
 // SEÇÃO DE MATERIAL DE APOIO
 const SupportData = [
     {
-        // drive do vivver com TODO material 
-           id: 'construcao',
+        id: 'construcao',
         title: 'EM CONSTRUÇÃO',
         description: 'PAINEL EM FASE DE DESENVOLVIMENTO',
         url: '#',
         icon: 'activity',
         gradient: 'construcao'
     },
-   
 ];
-
-
-// SVG Icon mapping for Lucide icons
-const IconMap = {
-    'activity': `<path d="M22 12h-4l-3 9L9 3l-3 9H2"/>`,
-    'heart': `<path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0L12 6.36l-1.77-1.77a5.4 5.4 0 0 0-7.65 0c-2.4 2.4-2.4 6.4 0 8.8l7.15 7.15a1.5 1.5 0 0 0 2.12 0l7.15-7.15c2.4-2.4 2.4-6.4 0-8.8z"/>`,
-    'shield': `<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>`,
-    'alert-triangle': `<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12" y2="17"/>`,
-    'syringe': `<path d="m14 14 5-5m-1-5 5 5m-11 5-5 5m-1-5 5 5m-1.5-12.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0zM12 2h3a2 2 0 0 1 2 2v2l-5 5-4-4 5-5zm-2 5-2 2-4-4 2-2z"/>`,
-    'users': `<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/>`,
-    'external-link': `<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>`
-};
-
-const getIconSvg = (name) => {
-    const iconData = IconMap[name];
-    if (!iconData) return '';
-    return `<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="32" width="32" xmlns="http://www.w3.org/2000/svg">${iconData}</svg>`;
-};
 
 // Main Rendering Function
 const renderCards = () => {
@@ -117,7 +87,6 @@ const renderCards = () => {
                 <div class="card-gradient"></div>
                 <h3 class="card-title">${panel.title}</h3>
                 <p class="card-description">${panel.description}</p>
-                <div class="external-link-icon">${getIconSvg('external-link')}</div>
             </a>
         `;
     });
@@ -137,14 +106,12 @@ const renderSupportCards = () => {
                 <div class="card-gradient"></div>
                 <h3 class="card-title">${panel.title}</h3>
                 <p class="card-description">${panel.description}</p>
-                <div class="external-link-icon">${getIconSvg('external-link')}</div>
             </a>
         `;
     });
     
     cardsGrid.innerHTML = cardsHtml;
 };
-
 
 // Render Cookie Consent
 const renderCookieConsent = () => {
@@ -179,7 +146,7 @@ const renderCookieConsent = () => {
 const init = () => {
     ThemeManager.init();
     renderCards();
-    renderSupportCards(); // Chama a nova função para renderizar os cards de apoio
+    renderSupportCards();
     setTimeout(() => {
         AnimationManager.observeCards();
     }, 100);
@@ -187,7 +154,6 @@ const init = () => {
         renderCookieConsent();
     }, 1000);
     
-    // Event listeners
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && document.querySelector('.cookie-consent.show')) {
             CookieManager.set('cookie_consent', 'true', 365);
@@ -195,9 +161,7 @@ const init = () => {
         }
     });
 
-    // Scroll smooth
     document.documentElement.style.scrollBehavior = 'smooth';
 };
 
-// Inicialização do DOM
 document.addEventListener('DOMContentLoaded', init);

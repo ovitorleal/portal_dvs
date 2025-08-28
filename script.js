@@ -83,17 +83,6 @@ const PortalData = [
     }
 ];
 
-// SVG Icon mapping for Lucide icons
-const IconMap = {
-    'external-link': `<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>`
-};
-
-const getIconSvg = (name) => {
-    const iconData = IconMap[name];
-    if (!iconData) return '';
-    return `<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="32" width="32" xmlns="http://www.w3.org/2000/svg">${iconData}</svg>`;
-};
-
 // Main Rendering Function
 const renderCards = () => {
     const cardsGrid = document.getElementById('cards-grid');
@@ -106,7 +95,6 @@ const renderCards = () => {
                 <div class="card-gradient"></div>
                 <h3 class="card-title">${panel.title}</h3>
                 <p class="card-description">${panel.description}</p>
-                <div class="external-link-icon">${getIconSvg('external-link')}</div>
             </a>
         `;
     });
