@@ -51,7 +51,7 @@ body {
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position: relative; 
     min-height: 80px; 
 }
@@ -72,12 +72,6 @@ body {
     transform: translateY(-50%); 
 }
 
-.logo-section {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
 .title-section {
     text-align: center;
     flex: 1;
@@ -87,15 +81,7 @@ body {
 .main-title {
     font-size: clamp(1.5rem, 4vw, 2.5rem); 
     font-weight: 700;
-    background-clip: text;
-    margin-bottom: 0.25rem;
     color: #ffff;
-}
-
-.subtitle {
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--text-muted-light);
 }
 
 /* Main Content */
@@ -303,26 +289,28 @@ a.card:visited .card-title {
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav {
-        padding: 0.5rem 1rem; /* Reduz o padding */
-        min-height: 60px; /* Reduz a altura mínima */
-        flex-wrap: nowrap; /* Impede que os itens quebrem a linha */
+        padding: 0.5rem 1rem;
+        min-height: 60px;
     }
 
     .logo_pmvr, .logo_sms {
         position: static;
         transform: none;
-        max-width: 45px; /* Reduz o tamanho do logo */
-        flex-shrink: 0; /* Impede que o logo encolha */
+        max-width: 45px;
     }
-
+    
     .title-section {
-        padding: 0 0.5rem; /* Adiciona um pequeno padding lateral */
-        min-width: 0; /* Permite que o título encolha se necessário */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
     }
     
     .main-title {
-        font-size: 0.9rem; /* Reduz o tamanho da fonte do título */
+        font-size: 0.9rem;
         line-height: 1.2;
+        margin: 0 0.5rem;
     }
 
     .main-content {
