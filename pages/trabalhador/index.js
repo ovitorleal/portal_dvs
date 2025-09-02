@@ -68,7 +68,7 @@ const SupportData = [
     {
         id: 'construcao',
         title: 'EM CONSTRUÇÃO',
-        description: 'PAINEL EM FASE DE DESENVOLVIMENTO', 
+        description: 'PAINEL EM FASE DE DESENVOLVIMENTO⚠️', 
         url: '#',
         icon: 'activity',
         gradient: 'construcao'

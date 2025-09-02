@@ -55,11 +55,19 @@ const AnimationManager = {
 const PanelData = [
     {
         id: 'construcao',
-        title: 'EM CONSTRUÇÃO',
+        title: 'EM CONSTRUÇÃO ⚠️',
         description: 'PAINEL EM FASE DE DESENVOLVIMENTO',
         url: '#',
         icon: 'activity',
         gradient: 'construcao'
+    },
+    {
+        id: 'farmacias',
+        title: 'Drogarias, Farmácias e Distribuidoras (2024)',
+        description: 'Distribuição geográfica de farmácias, drogarias e distribuidoras no município no ano de 2024.',
+        url: 'https://lookerstudio.google.com/reporting/7bf535bc-7c4d-4121-983f-f7c77286da43',
+        icon: 'activity',
+        gradient: 'farmacias'
     },
 ];
 
@@ -68,7 +76,7 @@ const SupportData = [
     {
         id: 'construcao',
         title: 'EM CONSTRUÇÃO',
-        description: 'PAINEL EM FASE DE DESENVOLVIMENTO',
+        description: 'PAINEL EM FASE DE DESENVOLVIMENTO ⚠️' ,
         url: '#',
         icon: 'activity',
         gradient: 'construcao'
