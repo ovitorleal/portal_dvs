@@ -72,8 +72,8 @@ const PanelData = [
     {
         id: 'vacinacao',
         title: 'Vacinação de Rotina',
-        description: 'Cobertura vacinal e dados sobre vacinação de rotina no município.',
-        url: 'https://docs.google.com/spreadsheets/d/1ByzyHrbe6Dwx6FrUUvXYZnz9f4LVciBRZm2uUQE8o_0/edit?gid=0#gid=0',
+        description: 'Cobertura vacinal e dados sobre vacinação no município.',
+        url: 'https://lookerstudio.google.com/reporting/3cd61315-9ae1-4038-b944-ef2403c06aec/page/p_1t0d3dkovd',
         icon: 'shield',
         gradient: 'vacinacao'
     },
