@@ -51,7 +51,7 @@ const AnimationManager = {
     }
 };
 
-// SEÇÃO DE PAINÉIS
+// Seção dos cards de painéis
 const PanelData = [
     {
         id: 'dengue',
@@ -89,7 +89,7 @@ const PanelData = [
         id: 'influenza',
         title: 'Vacinação contra Influenza',
         description: 'Informações sobre a vacinação anual contra Influenza no município.',
-        url: 'https://infoms.saude.gov.br/extensions/SEIDIGI_DEMAS_VACINACAO_CALENDARIO_NACIONAL_COBERTURA_RESIDENCIA/SEIDIGI_DEMAS_VACINACAO_CALENDARIO_NACIONAL_COBERTURA_RESIDENCIA.html',
+        url: 'https://infoms.saude.gov.br/extensions/SEIDIGI_DEMAS_INFLUENZA_2025_RESIDENCIA/SEIDIGI_DEMAS_INFLUENZA_2025_RESIDENCIA.html',
         icon: 'syringe',
         gradient: 'influenza'
     },
@@ -103,7 +103,7 @@ const PanelData = [
     }
 ];
 
-// SEÇÃO DE MATERIAL DE APOIO
+// Seção de materiais de apoio
 const SupportData = [
     {
         id: 'notificacoes',
@@ -123,7 +123,7 @@ const SupportData = [
     }
 ];
 
-// Main Rendering Function
+// Função de renderização principal - cards
 const renderCards = () => {
     const cardsGrid = document.getElementById('cards-grid');
     if (!cardsGrid) return;
@@ -161,7 +161,7 @@ const renderSupportCards = () => {
     cardsGrid.innerHTML = cardsHtml;
 };
 
-// Render Cookie Consent
+// Render Cookie Consentimento
 const renderCookieConsent = () => {
     const consentContainer = document.getElementById('cookie-consent-container');
     if (CookieManager.exists('cookie_consent')) {
