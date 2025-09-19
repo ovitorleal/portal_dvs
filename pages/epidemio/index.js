@@ -5,7 +5,7 @@ const CookieManager = {
         expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
         document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
     },
-    
+
     get: (name) => {
         const nameEQ = name + "=";
         const ca = document.cookie.split(';');
@@ -16,7 +16,7 @@ const CookieManager = {
         }
         return null;
     },
-    
+
     exists: (name) => {
         return document.cookie.split(';').some((item) => item.trim().startsWith(`${name}=`));
     }
@@ -41,7 +41,7 @@ const AnimationManager = {
                     }
                 });
             },
-            { 
+            {
                 threshold: 0.1,
                 rootMargin: '0px 0px -50px 0px'
             }
@@ -127,7 +127,7 @@ const SupportData = [
 const renderCards = () => {
     const cardsGrid = document.getElementById('cards-grid');
     if (!cardsGrid) return;
-    
+
     let cardsHtml = '';
     PanelData.forEach((panel) => {
         cardsHtml += `
@@ -138,7 +138,7 @@ const renderCards = () => {
             </a>
         `;
     });
-    
+
     cardsGrid.innerHTML = cardsHtml;
 };
 
@@ -157,7 +157,7 @@ const renderSupportCards = () => {
             </a>
         `;
     });
-    
+
     cardsGrid.innerHTML = cardsHtml;
 };
 
@@ -168,7 +168,7 @@ const renderCookieConsent = () => {
         if (consentContainer) consentContainer.innerHTML = '';
         return;
     }
-    
+
     const cookieHtml = `
         <div class="cookie-consent show">
             <div class="cookie-content">
@@ -201,7 +201,7 @@ const init = () => {
     setTimeout(() => {
         renderCookieConsent();
     }, 1000);
-    
+
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && document.querySelector('.cookie-consent.show')) {
             CookieManager.set('cookie_consent', 'true', 365);
