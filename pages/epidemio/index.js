@@ -100,6 +100,14 @@ const PanelData = [
         url: 'https://lookerstudio.google.com/reporting/6321dc57-070e-4ad1-b97b-13be9876187d',
         icon: 'users',
         gradient: 'sifilis'
+    },
+    {
+        id: 'tuberculose',
+        title: 'Tuberculose',
+        description: 'Informações a respeito dos casos de Tuberculose no município.',
+        url: 'https://google.com.br', //aguardando link correto,
+        icon: 'users',
+        gradient: 'tb'
     }
 ];
 
@@ -115,11 +123,19 @@ const SupportData = [
     },
     {
         id: 'imunizacao',
-        title: 'Imunização',
-        description: 'Calendários, informes técnicos e materiais sobre imunização.',
+        title: 'Documentos de Imunização',
+        description: 'Documentos, calendários, informes técnicos e materiais sobre imunização.',
         url: 'https://drive.google.com/drive/u/3/folders/1-Y7q9O24UTOM0szrNH0cawv2YlE20-X0',
         icon: 'shield',
         gradient: 'imunizacao'
+    },
+    {
+        id: 'tuberculose',
+        title: 'Protocolo de Tuberculose',
+        description: 'Normativa de ações para o enfrentamento à Tuberculose no Município.',
+        url: 'https://drive.google.com/drive/folders/1ziumkVf4l4_8051uI8J050yicEf5sqX-?usp=sharing',
+        icon: 'shield',
+        gradient: 'tb'
     }
 ];
 
