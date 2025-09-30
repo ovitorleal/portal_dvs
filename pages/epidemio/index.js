@@ -108,6 +108,14 @@ const PanelData = [
         url: 'https://google.com.br', //aguardando link correto,
         icon: 'users',
         gradient: 'tb'
+    },
+    {
+        id: 'material-biologico',
+        title: 'Material Biológico',
+        description: 'Dados sobre Acidentes com Material Biológico no município.',
+        url: 'https://lookerstudio.google.com/reporting/6e28181c-2143-482d-88ff-87abe07b6a83',
+        icon: 'users',
+        gradient: 'mat-bio'
     }
 ];
 
