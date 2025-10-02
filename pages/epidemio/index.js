@@ -119,7 +119,7 @@ const PanelData = [
     }
 ];
 
-// Seção de materiais de apoio
+// CARDS DE MATERIAL DE APOIO
 const SupportData = [
     {
         id: 'notificacoes',
