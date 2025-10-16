@@ -28,24 +28,8 @@ O portal é organizado nos seguintes departamentos, cada um com sua própria pá
 * **Design Responsivo**: Interface adaptável para visualização em diferentes tamanhos de tela.
 * **Consentimento de Cookies**: Um banner informativo sobre o uso de cookies para melhorar a experiência do usuário.
 
-## 🚀 Tecnologias Utilizadas
-
-O projeto foi construído utilizando tecnologias web padrões:
-
-* **HTML5**
-* **CSS3**
-* **JavaScript (Vanilla)**
-
-## 🔧 Como Executar Localmente
-
-Para visualizar o projeto em sua máquina local, basta seguir estes passos:
-
-1.  Clone ou faça o download deste repositório.
-2.  Navegue até a pasta raiz do projeto.
-3.  Abra o arquivo `index.html` em seu navegador de preferência.
 
 ## 👨‍💻 Desenvolvedor
 
-Este portal foi desenvolvido por **Vitor Leal**.
+Este portal foi desenvolvido e idealizado por **[Vitor Leal](https://www.github.com/ovitorleal)**.
 
-* **GitHub**: [ovitorleal](https://www.github.com/ovitorleal)
