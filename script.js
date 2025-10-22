@@ -80,6 +80,13 @@ const PortalData = [
         description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
         url: '/pages/trabalhador/index.html', // caminho atualizado
         gradient: 'trabalhador'
+    },
+    {
+        id: 'pactuacao',
+        title: 'Pactuação Bipartite',
+        description: 'Dados sobre a pactuação bipartite no município.',
+        url: 'http://www.google.com', // caminho atualizado
+        gradient: 'trabalhador'
     }
 ];
 
