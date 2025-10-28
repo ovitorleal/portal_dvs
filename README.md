@@ -18,7 +18,7 @@ O portal é organizado nos seguintes departamentos, cada um com sua própria pá
 * **Vigilância Epidemiológica**: Apresenta painéis sobre o cenário epidemiológico de doenças e agravos no município, como Dengue, Sífilis, dados vitais e cobertura vacinal.
 * **Vigilância Sanitária**: Focada em dados relacionados a estabelecimentos e serviços de interesse sanitário. (Em desenvolvimento)
 * **Saúde do Trabalhador (CEREST)**: Disponibiliza informações sobre a saúde e segurança dos trabalhadores no município. (Em desenvolvimento)
-* * **Indicadores de Pactuação Bipartite**: Apresenta os Indicadores de Pactuação Bipartite do município até o momento (2025) além do Indicador pactuado no Município e a meta da SES-RJ(Secretaria Estadual de Saúde-RJ)
+*  **Indicadores de Pactuação Bipartite**: Apresenta os Indicadores de Pactuação Bipartite do município até o momento (2025) além do Indicador pactuado no Município e a meta da SES-RJ(Secretaria Estadual de Saúde-RJ)
 
 ## ✨ Funcionalidades
 
