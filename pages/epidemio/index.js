@@ -138,6 +138,14 @@ const SupportData = [
         gradient: 'imunizacao'
     },
     {
+        id: 'ia-imunizavr',
+        title: 'IA ImunizaVR',
+        description: 'Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização. ',
+        url: 'https://abre.ai/ia-imunizavr',
+        icon: 'shield',
+        gradient: 'ia-imunizavr'
+    },
+    {
         id: 'tuberculose',
         title: 'Protocolo de Tuberculose',
         description: 'Normativa de ações para o enfrentamento à Tuberculose no Município.',
