@@ -140,7 +140,7 @@ const SupportData = [
     {
         id: 'ia-imunizavr',
         title: 'IA ImunizaVR',
-        description: 'Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização. ',
+        description: 'Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização. Necessário ter uma conta ativa no ChatGPT. ',
         url: 'https://abre.ai/ia-imunizavr',
         icon: 'shield',
         gradient: 'ia-imunizavr'
