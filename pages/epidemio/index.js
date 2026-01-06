@@ -96,7 +96,7 @@ const PanelData = [
     {
         id: 'sifilis',
         title: 'Sífilis',
-        description: 'Informações sobre os casos de Sífilis do município.',
+        description: 'Informações sobre os casos de Sífilis do município nos anos 2022 e 2023 para certificação.',
         url: 'https://lookerstudio.google.com/reporting/6321dc57-070e-4ad1-b97b-13be9876187d',
         icon: 'users',
         gradient: 'sifilis'
@@ -140,7 +140,7 @@ const SupportData = [
     {
         id: 'ia-imunizavr',
         title: 'IA ImunizaVR',
-        description: 'Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização. Necessário ter uma conta ativa e estar logado no ChatGPT. ',
+        description: '(Ainda em Estudo e Implementação pois depende de recurso $$) Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização. Necessário ter uma conta ativa e estar logado no ChatGPT. ',
         url: 'https://abre.ai/ia-imunizavr',
         icon: 'shield',
         gradient: 'ia-imunizavr'
