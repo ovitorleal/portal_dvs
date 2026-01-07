@@ -110,6 +110,14 @@ const PanelData = [
         gradient: 'tb'
     },
     {
+        id: 'esavi',
+        title: 'ESAVI',
+        description: 'Dados sobre Eventos Supostamente Atribuídos à Vacinação e Imunização no município.',
+        url: 'https://lookerstudio.google.com/reporting/e0807fe7-6338-47c4-8364-6e3c2fada085',
+        icon: 'users',
+        gradient: 'esavi'
+    },
+    {
         id: 'material-biologico',
         title: 'Material Biológico',
         description: 'Dados sobre Acidentes com Material Biológico no município.',
