@@ -56,8 +56,8 @@ const PanelData = [
     {
         id: 'dengue',
         title: 'Dengue',
-        description: 'Dados sobre a Dengue no município.',
-        url: 'https://lookerstudio.google.com/reporting/3c304ce9-c20f-4901-993c-02a6c3b21c00',
+        description: 'Dados sobre a Dengue no município no atual ano.',
+        url: 'https://lookerstudio.google.com/reporting/12a22ae1-495b-42fe-9b00-f39c19a24564',
         icon: 'activity',
         gradient: 'dengue'
     },

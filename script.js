@@ -56,7 +56,7 @@ const PortalData = [
     {
         id: 'ambiental',
         title: 'Vigilância Ambiental',
-        description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
+        description: '⚠ PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO. ⚠ ',
         url: '/pages/ambiental/index.html', // caminho atualizado
         gradient: 'ambiental'
     },
@@ -70,14 +70,14 @@ const PortalData = [
     {
         id: 'sanitaria',
         title: 'Vigilância Sanitária',
-        description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
+        description: '⚠ PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO. ⚠ ',
         url: '/pages/sanitaria/index.html', // caminho atualizado
         gradient: 'sanitaria'
     },
     {
         id: 'trabalhador',
         title: 'Saúde do Trabalhador',
-        description: 'PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO.',
+        description: '⚠ PAINEL EM DESENVOLVIMENTO/CONSTRUÇÃO. ⚠ ',
         url: '/pages/trabalhador/index.html', // caminho atualizado
         gradient: 'trabalhador'
     },
