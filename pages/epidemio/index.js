@@ -101,14 +101,14 @@ const PanelData = [
         icon: 'users',
         gradient: 'sifilis'
     },
-    {
-        id: 'tuberculose',
-        title: 'Tuberculose',
-        description: 'Informações a respeito dos casos de Tuberculose no município.',
-        url: 'https://google.com.br', //aguardando link correto,
-        icon: 'users',
-        gradient: 'tb'
-    },
+    // {
+    //     id: 'tuberculose',
+    //     title: 'Tuberculose',
+    //     description: 'Informações a respeito dos casos de Tuberculose no município.',
+    //     url: 'https://google.com.br', //aguardando link correto,
+    //     icon: 'users',
+    //     gradient: 'tb'
+    // },
     {
         id: 'esavi',
         title: 'ESAVI',
