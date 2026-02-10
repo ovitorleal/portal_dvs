@@ -77,14 +77,14 @@ const PanelData = [
         icon: 'shield',
         gradient: 'vacinacao'
     },
-    {
-        id: 'doencas',
-        title: 'Doenças e Agravos',
-        description: 'Doenças e agravos de notificação compulsória no município.',
-        url: 'https://www.google.com',
-        icon: 'alert-triangle',
-        gradient: 'doencas'
-    },
+    // {
+    //     id: 'doencas',
+    //     title: 'Doenças e Agravos',
+    //     description: 'Doenças e agravos de notificação compulsória no município.',
+    //     url: 'https://www.google.com',
+    //     icon: 'alert-triangle',
+    //     gradient: 'doencas'
+    // },
     {
         id: 'influenza',
         title: 'Vacinação contra Influenza',
@@ -101,14 +101,14 @@ const PanelData = [
         icon: 'users',
         gradient: 'sifilis'
     },
-    // {
-    //     id: 'tuberculose',
-    //     title: 'Tuberculose',
-    //     description: 'Informações a respeito dos casos de Tuberculose no município.',
-    //     url: 'https://google.com.br', //aguardando link correto,
-    //     icon: 'users',
-    //     gradient: 'tb'
-    // },
+    {
+        id: 'srag',
+        title: 'Síndrome Respiratória Aguda Grave (SRAG)',
+        description: 'Dados sobre internações por Síndrome Respiratória Aguda Grave (SRAG).',
+        url: 'https://lookerstudio.google.com/reporting/a5f3aed4-4daa-4899-a264-cea143a098d6', 
+        icon: 'users',
+        gradient: 'srag'
+    },
     {
         id: 'esavi',
         title: 'ESAVI',
