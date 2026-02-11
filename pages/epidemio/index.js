@@ -129,6 +129,14 @@ const PanelData = [
 
 // CARDS DE MATERIAL DE APOIO
 const SupportData = [
+        {
+        id: 'ia-imunizavr',
+        title: 'IA ImunizaVR',
+        description: 'Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização no município.<br/>OBS: Para acessar é necessário possuir uma conta ativa no chatGPT. ',
+        url: 'https://abre.ai/ia-imunizavr',
+        icon: 'shield',
+        gradient: 'ia-imunizavr'
+    },
     {
         id: 'notificacoes',
         title: 'Notificações e Agravos',
@@ -145,14 +153,7 @@ const SupportData = [
         icon: 'shield',
         gradient: 'imunizacao'
     },
-    {
-        id: 'ia-imunizavr',
-        title: 'IA ImunizaVR',
-        description: '(Fase de Estudo/Testes e Implementação) Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização no município. Necessário ter uma conta ativa e estar logado no ChatGPT. ',
-        url: 'https://abre.ai/ia-imunizavr',
-        icon: 'shield',
-        gradient: 'ia-imunizavr'
-    },
+
     {
         id: 'tuberculose',
         title: 'Protocolo de Tuberculose',
