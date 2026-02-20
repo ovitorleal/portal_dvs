@@ -96,7 +96,7 @@ const PanelData = [
     {
         id: 'sifilis',
         title: 'Sífilis',
-        description: 'Informações sobre os casos de Sífilis do município nos anos 2022 e 2023 para certificação.',
+        description: 'Informações sobre os casos de Sífilis em Gestantes, Congênita e Adquirida no município.',
         url: 'https://lookerstudio.google.com/reporting/6321dc57-070e-4ad1-b97b-13be9876187d',
         icon: 'users',
         gradient: 'sifilis'
