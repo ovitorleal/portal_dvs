@@ -60,15 +60,24 @@ const PanelData = [
         url: 'https://lookerstudio.google.com/reporting/12a22ae1-495b-42fe-9b00-f39c19a24564',
         icon: 'activity',
         gradient: 'dengue'
+    },    
+    {
+        id: 'vitais2026',
+        title: 'Dados Vitais 2026',
+        description: 'Dados referentes aos nascimentos e óbitos do município no ano de 2026.',
+        url: 'https://lookerstudio.google.com/reporting/fefeeb98-a2dd-447f-9b90-7c01ec512c81',
+        icon: 'heart',
+        gradient: 'vitais2026'
     },
     {
-        id: 'vitais',
-        title: 'Dados Vitais',
-        description: 'Dados referentes aos nascimentos e óbitos do município.',
+        id: 'vitais2025',
+        title: 'Dados Vitais 2025',
+        description: 'Dados referentes aos nascimentos e óbitos do município no ano de 2025.',
         url: 'https://lookerstudio.google.com/reporting/0901413f-71d9-4742-84a3-e91ea4ea6768',
         icon: 'heart',
-        gradient: 'vitais'
+        gradient: 'vitais2025'
     },
+    
     {
         id: 'vacinacao',
         title: 'Vacinação de Rotina',
