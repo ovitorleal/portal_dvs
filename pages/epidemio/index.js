@@ -60,7 +60,7 @@ const PanelData = [
         url: 'https://lookerstudio.google.com/reporting/12a22ae1-495b-42fe-9b00-f39c19a24564',
         icon: 'activity',
         gradient: 'dengue'
-    },    
+    },
     {
         id: 'vitais2026',
         title: 'Dados Vitais 2026',
@@ -77,7 +77,7 @@ const PanelData = [
         icon: 'heart',
         gradient: 'vitais2025'
     },
-    
+
     {
         id: 'vacinacao',
         title: 'Vacinação de Rotina',
@@ -114,7 +114,7 @@ const PanelData = [
         id: 'srag',
         title: 'Síndrome Respiratória Aguda Grave (SRAG)',
         description: 'Dados sobre internações por Síndrome Respiratória Aguda Grave (SRAG).',
-        url: 'https://lookerstudio.google.com/reporting/a5f3aed4-4daa-4899-a264-cea143a098d6', 
+        url: 'https://lookerstudio.google.com/reporting/a5f3aed4-4daa-4899-a264-cea143a098d6',
         icon: 'users',
         gradient: 'srag'
     },
@@ -138,7 +138,7 @@ const PanelData = [
 
 // CARDS DE MATERIAL DE APOIO
 const SupportData = [
-        {
+    {
         id: 'ia-imunizavr',
         title: 'IA ImunizaVR',
         description: 'Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização no município.<br/>OBS: Para acessar é necessário possuir uma conta ativa no chatGPT. ',
