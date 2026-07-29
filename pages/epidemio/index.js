@@ -61,6 +61,7 @@ const PanelData = [
         icon: 'activity',
         gradient: 'dengue'
     },
+
     {
         id: 'vitais2026',
         title: 'Dados Vitais 2026',
@@ -69,6 +70,7 @@ const PanelData = [
         icon: 'heart',
         gradient: 'vitais2026'
     },
+
     {
         id: 'vitais2025',
         title: 'Dados Vitais 2025',
@@ -86,6 +88,7 @@ const PanelData = [
         icon: 'shield',
         gradient: 'vacinacao'
     },
+
     // {
     //     id: 'doencas',
     //     title: 'Doenças e Agravos',
@@ -94,6 +97,7 @@ const PanelData = [
     //     icon: 'alert-triangle',
     //     gradient: 'doencas'
     // },
+
     {
         id: 'influenza',
         title: 'Vacinação contra Influenza',
@@ -102,6 +106,7 @@ const PanelData = [
         icon: 'syringe',
         gradient: 'influenza'
     },
+
     {
         id: 'sifilis',
         title: 'Sífilis',
@@ -110,6 +115,7 @@ const PanelData = [
         icon: 'users',
         gradient: 'sifilis'
     },
+
     {
         id: 'srag',
         title: 'Síndrome Respiratória Aguda Grave (SRAG)',
@@ -118,6 +124,7 @@ const PanelData = [
         icon: 'users',
         gradient: 'srag'
     },
+
     {
         id: 'esavi',
         title: 'ESAVI',
@@ -126,6 +133,7 @@ const PanelData = [
         icon: 'users',
         gradient: 'esavi'
     },
+
     {
         id: 'material-biologico',
         title: 'Material Biológico',
@@ -146,6 +154,7 @@ const SupportData = [
         icon: 'shield',
         gradient: 'ia-imunizavr'
     },
+
     {
         id: 'notificacoes',
         title: 'Notificações e Agravos',
@@ -154,6 +163,7 @@ const SupportData = [
         icon: 'alert-triangle',
         gradient: 'notificacoes'
     },
+
     {
         id: 'imunizacao',
         title: 'Documentos de Imunização',
