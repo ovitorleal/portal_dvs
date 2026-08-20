@@ -146,14 +146,15 @@ const PanelData = [
 
 // CARDS DE MATERIAL DE APOIO
 const SupportData = [
-    {
-        id: 'ia-imunizavr',
-        title: 'IA ImunizaVR',
-        description: 'Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização no município.<br/>OBS: Para acessar é necessário possuir uma conta ativa no chatGPT. ',
-        url: 'https://abre.ai/ia-imunizavr',
-        icon: 'shield',
-        gradient: 'ia-imunizavr'
-    },
+    // {
+    //     id: 'ia-imunizavr',
+    //     title: 'IA ImunizaVR',
+    //     description: 'Inteligência Artificial desenvolvida com intuito de sanar dúvidas relacionadas à Imunização no município.<br/>OBS: Para acessar é necessário possuir uma conta ativa no chatGPT. ',
+    //     url: 'https://abre.ai/ia-imunizavr',
+    //     icon: 'shield',
+    //     gradient: 'ia-imunizavr'
+    // },
+    //Retirado IA imunizaVR por baixa utilização e baixa divulgação!!!
 
     {
         id: 'notificacoes',
