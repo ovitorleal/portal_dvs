@@ -178,7 +178,7 @@ const SupportData = [
         id: 'tuberculose',
         title: 'Protocolo de Tuberculose',
         description: 'Normativa de ações para o enfrentamento à Tuberculose no Município.',
-        url: 'https://drive.google.com/drive/folders/1ziumkVf4l4_8051uI8J050yicEf5sqX-?usp=sharing',
+        url: 'https://docs.google.com/document/d/1-EXAxg2mMnRFRPOn5rcmllZPet-p0a3_/edit?usp=sharing&ouid=106624795943709768273&rtpof=true&sd=true',
         icon: 'shield',
         gradient: 'tb'
     }
